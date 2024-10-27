@@ -1,0 +1,83 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+header h1, h2 {
+    text-align: center;
+}
+
+/* Infobox do personagem */
+.infobox {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.infobox img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.infobox div p{
+    margin:5px 0;
+}
+
+.lore{
+    background-color: #fff;
+    padding: 15px;
+    border:1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.spoiler-content {
+    margin-top: 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+/*Atributos*/
+
+.Atributos ul, .habilidades ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.Atributos li, .habilidades li{
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid #860707;
+    margin-bottom: 10px;
+}
+
+/*galeria*/
+
+.slider {
+    width: flex;
+    align-items: center;
+}
+
+.slide {
+    width: 300px;
+    height: 200px;
+    display: none;
+}
+
+.prev, .next {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+    background-color: #555;
+}
